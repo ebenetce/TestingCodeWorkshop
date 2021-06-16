@@ -34,6 +34,7 @@ jobs:
       - name: Run all tests
         uses: matlab-actions/run-tests@v0
         with:
+          source-folder: tbx
           test-results-junit: test-results/results.xml
           code-coverage-cobertura: code-coverage/coverage.xml
      
