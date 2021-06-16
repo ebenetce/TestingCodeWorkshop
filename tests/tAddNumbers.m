@@ -10,9 +10,9 @@ classdef tAddNumbers < matlab.unittest.TestCase
         c = {21, 22, 23};
     end
     
-    methods (Test,ParameterCombination = "exhaustive")
+    methods (Test,ParameterCombination = "exhaustive", TestTags = {'Unit'})
         function tAdd(testCase,a,b,c)
-            res = sum([a b c])+1;
+            res = sum([a b c]);
             verifyEqual(testCase,res,a+b+c);
         end
     end
