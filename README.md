@@ -5,7 +5,7 @@ This repository shows how to run MATLAB tests using GitHub Actions
 | **CI Platform** | **Badges** | **Badge Help** |
 |:----------------|:-----------|:---------------|
 | GitHub Actions | [![MATLAB](https://github.com/ebenetce/TestingCodeWorkshop/workflows/MATLAB/badge.svg)](https://github.com/ebenetce/TestingCodeWorkshop/actions/workflows/ci.yml/badge.svg) | [GitHub Actions documentation for setting up badges](https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge) |
-| GitHub Actions | [![example branch parameter](https://github.com/ebenetce/TestingCodeWorkshop/workflows/MATLAB/badge.svg)](https://github.com/ebenetce/TestingCodeWorkshop/actions/workflows/ci.yml/badge.svg?branch=myFirstBranch) |
+| GitHub Actions | [![example branch parameter](https://github.com/ebenetce/TestingCodeWorkshop/workflows/MATLAB/badge.svg?branch=myFirstBranch)](https://github.com/ebenetce/TestingCodeWorkshop/actions/workflows/ci.yml/badge.svg?branch=myFirstBranch) |
 
 
 ## Quick start guide
